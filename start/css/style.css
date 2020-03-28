@@ -347,6 +347,13 @@ a{
         width: 71%;
         margin-top: 40px;
     }
+    .reviews__items{
+        flex-wrap: wrap;
+    }
+    .reviews__item{
+        width: 48%;
+        margin-bottom: 25px;
+    }
 }
 
 
@@ -401,6 +408,19 @@ a{
     .specialised__item{
         width: 50%;
         margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 685px){
+    .reviews__items{
+        display: block;
+    }
+    .reviews__item{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .reviews{
+        padding: 38px 0;
     }
 }
 
